@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    env-hound (0.1.0.pre.pre)
+      dry-cli (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dry-cli (1.0.0)
+    minitest (5.18.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  env-hound!
+  minitest (~> 5.18)
+
+BUNDLED WITH
+   2.1.4
