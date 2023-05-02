@@ -8,6 +8,9 @@ module EnvHound
       /ENV\.fetch\(["'](?<variable>\w+)["']\)/
     ].freeze
 
+    # TODO: Save lines where it's used
+    # TODO: Accept a file path to be able to store the file
+
     def call(content:)
       REGEXPS.map do |regexp|
         content.scan(regexp).map do
